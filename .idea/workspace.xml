@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31cd0c0-1593-42ee-8dbf-2e3190f92d43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/tango_with_django_project_2487780Y.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tango_with_django_project_2487780Y.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/populate_rango.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project_2487780Y/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tango_with_django_project_2487780Y/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project_2487780Y/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tango_with_django_project_2487780Y/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -101,7 +95,7 @@
       <workItem from="1579621867665" duration="863000" />
       <workItem from="1580224029799" duration="3213000" />
       <workItem from="1580829117650" duration="5728000" />
-      <workItem from="1580924037203" duration="7033000" />
+      <workItem from="1580924037203" duration="8700000" />
     </task>
     <servers />
   </component>
