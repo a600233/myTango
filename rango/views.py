@@ -7,7 +7,12 @@ from rango.forms import CategoryForm
 from rango.forms import PageForm
 from django.shortcuts import redirect
 from django.urls import reverse
+
 def about(request):
+    # prints out whether the method is a GET or a POST
+    print(request.method)
+    # prints out the user name, if no one is logged in it prints `AnonymousUser`
+    print(request.user)
     context_dict = {'boldmessage': "This tutorial has been put together by Wujiuge Yin"}
     return render(request, 'rango/about.html', context=context_dict)
 
@@ -71,6 +76,7 @@ def add_category(request):
             print(form.errors)
             # Will handle the bad form, new form, or no form supplied cases. # Render the form with error messages (if any).
     return render(request, 'rango/add_category.html', {'form': form})
+
 def add_page(request, category_name_slug):
     try:
         category = Category.objects.get(slug=category_name_slug)
