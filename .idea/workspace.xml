@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31cd0c0-1593-42ee-8dbf-2e3190f92d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/rango/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/rango/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rango/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/rango/add_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/rango/add_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/populate_rango.py" beforeDir="false" afterPath="$PROJECT_DIR$/populate_rango.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rango/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_chapter7.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,7 @@
       <workItem from="1579621867665" duration="863000" />
       <workItem from="1580224029799" duration="3213000" />
       <workItem from="1580829117650" duration="5728000" />
-      <workItem from="1580924037203" duration="27753000" />
+      <workItem from="1580924037203" duration="32070000" />
     </task>
     <servers />
   </component>
@@ -136,28 +135,28 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="251" y="41" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1580224352569" />
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1582066121933">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="636" height="278" key="GridCell.Tab.0.bottom" timestamp="1582074868954">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582064989274" />
+    <state width="636" height="278" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582074868954" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1582066121933" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1582061053715" />
-    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1582066121931">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="636" height="278" key="GridCell.Tab.0.center" timestamp="1582074868952">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="279" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582064989273" />
+    <state width="636" height="278" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582074868952" />
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1582066121931" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1582061053714" />
-    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1582066121930">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="636" height="278" key="GridCell.Tab.0.left" timestamp="1582074868951">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="279" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582064989271" />
+    <state width="636" height="278" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582074868951" />
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1582066121930" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1582061053713" />
-    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1582066121932">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state width="636" height="278" key="GridCell.Tab.0.right" timestamp="1582074868953">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="279" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582064989274" />
+    <state width="636" height="278" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582074868953" />
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1582066121932" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1582061053714" />
     <state x="229" y="75" key="SettingsEditor" timestamp="1579621884977">
@@ -173,5 +172,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="430" y="186" width="673" height="708" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1580831954854" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rango/views.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
